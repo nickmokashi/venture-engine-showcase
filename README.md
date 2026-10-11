@@ -2,37 +2,49 @@
 
 ### A laboratory for small businesses, not a promise.
 
-![The operations room: what happened, what needs you, what is making and costing money](shots/01-home.png)
+![Home: what the last mission found, where the next one will look, and what needs you](shots/01-home.png)
 
 Venture Engine is a Windows app that looks for small businesses worth testing, builds evidence, and helps turn the strongest ones into experiments. **Most ideas it finds are killed early, on purpose, because killing weak ideas is what saves money.** Everything it learns stays on the computer.
 
+## Missions
+
+One button. Each press of **MAKE ME MONEY** runs the next mission, and every mission looks somewhere it has not looked before. Nobody has to bring ideas.
+
+![Mission 1: it says where it will look and what it will do before it starts](shots/05-mission.png)
+
+* **Mission 1** reads Hacker News. **Missions 2 to 8** read places where people talk about the tools they pay for: Reddit groups for small business owners, online sellers, tradespeople, creators, office workers and teachers; App Store reviews of paid work apps; question-and-answer sites where people ask "is there a program that does this?"; and reviews of popular WordPress plugins. Every one of those addresses was loaded and checked before it shipped.
+* **After that, Claude suggests new places**, and the app keeps only the addresses that actually load and turn up real complaints. Without AI, a mission re-checks the places already searched, and says so.
+* **Every place stays on the list** and is re-checked for new posts, so nothing is lost by moving on. Sites that dislike quick repeat visits are read one address at a time.
+* **Every mission uses the same test**: an idea must be testable for under $20 and under a day of building. Up to three ideas are tested by trying to prove each one wrong; at most one advances.
+* **The report is plain English**: where it looked, how many complaints it found, why each idea was ruled out, and where the next mission will look.
+
+![Scout: the next mission, the missions so far, and every place it reads](shots/06-scout.png)
+
 ## The loop
 
-Source, evidence, opportunity, analysis, validation, venture, experiment, approval, result. Then iterate, pause, or kill it, and go round again.
+Complaint, idea, test, venture, experiment, approval, result. Then keep going, change course, or stop, and go round again.
 
-* **Research** reads web pages, news feeds, your own notes, and free Hacker News search. The same page is never read twice, and a failing source rests and retries later.
-* **The Evidence Ledger** links every score to the quotes behind it. Assumptions are marked and never counted.
-* **The Validator** attacks each idea and kills early, with its reasons. On its first live test it killed the weak ideas and let nothing weak through: "No venture passed validation today."
-* **MAKE ME MONEY** runs the whole cycle with a live progress view, and says what it will do before it starts.
-* **Claude Code packets:** a venture that survives comes with a complete build brief, copied with one click.
+* **The Evidence Ledger** links every score to the quotes behind it, with a link to where each person said it. Guesses are marked and never counted as proof.
+* **The test** kills early, with its reasons in plain words. "Only one person says this." "Nobody has said they would pay."
+* **Build instructions for Claude Code:** an idea that survives comes with a complete build brief, copied with one click.
 
 ## You set how far it goes
 
 <table>
 <tr>
 <td width="50%"><img src="shots/02-welcome.png" alt="Welcome: four quick questions" width="440"></td>
-<td width="50%"><img src="shots/03-autonomy.png" alt="How autonomous should I be? Observer, Builder or Operator" width="440"></td>
+<td width="50%"><img src="shots/03-autonomy.png" alt="What may I do without asking you? Research only, research and build here, or get tests ready" width="440"></td>
 </tr>
 </table>
 
-Observer researches and recommends. Builder also makes local prototypes. Operator prepares external experiments too. **In every mode, anything that publishes, sends, spends or deploys stops and waits for your approval**, and a yes covers exactly the version you saw, once.
+Research only. Research and build on this computer. Or also get tests ready to go online. **Whichever you pick, anything that would publish, send or spend stops and waits for your yes**, and a yes covers exactly the version you saw, once.
 
 ## Money safety
 
-![Maximum monthly AI and API spend: $0 by default](shots/04-spend.png)
+![The most I may spend on AI each month: $0 by default](shots/04-spend.png)
 
-* **Every budget starts at $0**, and $0 is a real way to use it: free public sources, the built-in rules, and build briefs you paste into the Claude Code you already pay for.
-* Money is set aside before anything is spent. The cost meter labels every figure ESTIMATE or ACTUAL, and shows UNKNOWN where nothing was measured.
+* **Every limit starts at $0**, and $0 is a real way to use it: free public places, the built-in rules, and build briefs you paste into the Claude Code you already pay for.
+* Money is set aside before anything is spent. The cost meter labels every figure ESTIMATE or ACTUAL, and says unknown where nothing was measured.
 * AI providers (Claude, OpenAI, Gemini, local models) are optional. Keys live in Windows Credential Manager, with a monthly limit and a permission for each task.
 * **It never moves money itself.** Revenue and bills are entered by hand.
 
@@ -41,11 +53,12 @@ Observer researches and recommends. Builder also makes local prototypes. Operato
 * **Publishing is simulated.** An approved publish saves the page that would go live; no hosting is connected yet.
 * **Payment platforms are not read**, so revenue is typed in by hand.
 * **Without an AI key, judgement is blunt.** It kills most ideas, and titles are plain.
+* **Apple's review lists sometimes come back empty for a while**, so they are a bonus place to look, not the backbone.
 * **The installer is unsigned**, so Windows shows a warning on first launch.
 
 ## Status
 
-Version 0.1.0, for Windows. The whole loop is exercised three ways: 115 automated tests (the full loop among them, on a real database file), a walkthrough of the real screens with live public data, and the installed app checking itself (13 of 13 checks passed). The screenshots here come from a fresh, empty profile.
+Version 0.2.0, for Windows. 123 automated tests (the full loop among them, on a real database file, and eight for missions), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
 
 The code is private.
 
