@@ -14,7 +14,7 @@ One button. Each press of **MAKE ME MONEY** runs the next mission, and every mis
 
 * **Mission 1** reads Hacker News. **Missions 2 to 8** read places where people talk about the tools they pay for: Reddit groups for small business owners, online sellers, tradespeople, creators, office workers and teachers; App Store reviews of paid work apps; question-and-answer sites where people ask "is there a program that does this?"; and reviews of popular WordPress plugins. Every one of those addresses was loaded and checked before it shipped.
 * **After that, Claude suggests new places**, and the app keeps only the addresses that actually load and turn up real complaints. Without AI, a mission re-checks the places already searched, and says so.
-* **Every place stays on the list** and is re-checked for new posts, so nothing is lost by moving on. Sites that dislike quick repeat visits are read one address at a time.
+* **Every place stays on the list** and is re-checked for new posts, so nothing is lost by moving on. A mission reads every address of its new place; if a site does not answer, it tries again, and if part of the place still could not be read, the next mission goes back to it once.
 * **Every mission uses the same test**: an idea must be testable for under $20 and under a day of building. Up to three ideas are tested by trying to prove each one wrong; at most one advances.
 * **The report is plain English**: where it looked, how many complaints it found, why each idea was ruled out, and where the next mission will look.
 
@@ -58,7 +58,7 @@ Research only. Research and build on this computer. Or also get tests ready to g
 
 ## Status
 
-Version 0.2.0, for Windows. 123 automated tests (the full loop among them, on a real database file, and eight for missions), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
+Version 0.2.1, for Windows. 126 automated tests (the full loop among them, on a real database file, and eleven for missions), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
 
 The code is private.
 
