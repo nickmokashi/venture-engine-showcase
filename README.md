@@ -51,7 +51,7 @@ Research only. Research and build on this computer. Or also get tests ready to g
 
 ## Honest about what does not work yet
 
-* **Publishing is simulated.** An approved publish saves the page that would go live; no hosting is connected yet.
+* **Nothing goes online yet.** Saying yes to a publish saves the page on the computer, with buttons to open it; no hosting is connected yet.
 * **Payment platforms are not read**, so revenue is typed in by hand.
 * **Without an AI key, judgement is blunt.** It kills most ideas, and titles are plain.
 * **Apple's review lists sometimes come back empty for a while**, so they are a bonus place to look, not the backbone.
@@ -59,7 +59,7 @@ Research only. Research and build on this computer. Or also get tests ready to g
 
 ## Status
 
-Version 0.2.2, for Windows. 132 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
+Version 0.2.3, for Windows. 132 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
 
 The code is private.
 
