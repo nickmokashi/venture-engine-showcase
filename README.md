@@ -21,11 +21,18 @@ One button. Each press of **MAKE ME MONEY** runs the next mission, and every mis
 
 ![Scout: the next mission, the missions so far, and every place it reads](shots/06-scout.png)
 
+## The test page it makes
+
+![A test page: what people are saying, how it would work, the planned price and a sign-up box](shots/07-test-page.png)
+
+When an idea passes, it gets a plain one-page test: real complaints first (no names), how it would work, the planned price, and a sign-up box. Example content shown.
+
 ## The loop
 
 Complaint, idea, test, venture, experiment, approval, result. Then keep going, change course, or stop, and go round again.
 
 * **The Evidence Ledger** links every score to the quotes behind it, with a link to where each person said it. Guesses are marked and never counted as proof.
+* **Claude has to agree before anything becomes a venture.** The built-in rules are only a first filter; if Claude cannot check an idea, it waits for the next mission rather than passing.
 * **The test** kills early, with its reasons in plain words. "Only one person says this." "Nobody has said they would pay."
 * **Build instructions for Claude Code:** an idea that survives comes with a complete build brief, copied with one click.
 
@@ -59,7 +66,7 @@ Research only. Research and build on this computer. Or also get tests ready to g
 
 ## Status
 
-Version 0.2.3, for Windows. 132 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
+Version 0.3.0, for Windows. 139 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
 
 The code is private.
 
