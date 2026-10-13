@@ -27,6 +27,10 @@ One button. Each press of **MAKE ME MONEY** runs the next mission, and every mis
 
 ![A test page: what people are saying, how it would work, the planned price and a sign-up box](shots/07-test-page.png)
 
+**A yes puts the page online for real.** It goes to a small page host on your own Cloudflare account, at its own address, only after you say yes to that exact page. Visits and sign-ups come back on every mission, every sign-up gets a link to remove itself, and the page comes down when the test ends. Nothing is posted anywhere for you: the test card hands you the link, the posts the idea came from, and a short honest message to share. Example content shown.
+
+![A test that is online: its address, visits and sign-ups, where to share it, and who signed up](shots/08-online-test.png)
+
 When an idea passes, it gets a plain one-page test: real complaints first (no names), how it would work, the planned price, and a sign-up box. Example content shown.
 
 ## The loop
@@ -60,7 +64,7 @@ Research only. Research and build on this computer. Or also get tests ready to g
 
 ## Honest about what does not work yet
 
-* **Nothing goes online yet.** Saying yes to a publish saves the page on the computer, with buttons to open it; no hosting is connected yet.
+* **Sharing is yours to do.** A page nobody links to gets no visitors, and Venture Engine never posts anywhere for you. It gives you the link and a message to paste.
 * **Payment platforms are not read**, so revenue is typed in by hand.
 * **Without an AI key, judgement is blunt.** It kills most ideas, and titles are plain.
 * **Apple's review lists sometimes come back empty for a while**, so they are a bonus place to look, not the backbone.
@@ -68,7 +72,7 @@ Research only. Research and build on this computer. Or also get tests ready to g
 
 ## Status
 
-Version 0.3.6, for Windows. 151 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
+Version 0.4.0, for Windows. 161 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
 
 The code is private.
 
