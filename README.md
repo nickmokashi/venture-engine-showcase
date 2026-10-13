@@ -16,7 +16,9 @@ One button. Each press of **MAKE ME MONEY** runs the next mission, and every mis
 * **After that, Claude suggests new places**, and the app keeps only the addresses that actually load and turn up real complaints. Without AI, a mission re-checks the places already searched, and says so.
 * **Every place stays on the list** and is re-checked for new posts, so nothing is lost by moving on. A mission reads every address of its new place; if a site does not answer, it tries again, and if part of the place still could not be read, the next mission goes back to it once.
 * **Ideas that need more proof get looked up on purpose.** Every mission searches for up to ten of them, taking turns, half of them ideas you picked yourself. With Claude connected, each search is aimed at what the idea is missing, such as people who pay for a fix. An idea only uses up one of its checks when it is actually looked up.
-* **Every mission uses the same test**: an idea must be testable for under $20 and under a day of building. Up to three ideas are tested by trying to prove each one wrong; at most one advances. An idea too big for that test says so on its card, with a **Test it now** button that has Claude judge it without the size limit.
+* **Claude reads the posts behind every idea first**, keeps the ones about one real problem, and closes ideas that were only posts sharing a few words, before a full test is spent on them.
+* **Every mission uses the same test**: an idea must be testable for under $20 and not risky. Big builds are welcome; each is tested the cheap way first. Up to six ideas are tested by trying to prove each one wrong; at most one advances. Every open idea's card says why it is waiting and has the button that moves it.
+* **Nothing is left half-open.** When a venture is stopped, its test ends, its waiting build is cancelled, and anything still waiting for a yes is withdrawn.
 * **The report is plain English**: where it looked, how many complaints it found, why each idea was ruled out, and where the next mission will look.
 
 ![Scout: the next mission, the missions so far, and every place it reads](shots/06-scout.png)
@@ -66,7 +68,7 @@ Research only. Research and build on this computer. Or also get tests ready to g
 
 ## Status
 
-Version 0.3.5, for Windows. 143 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
+Version 0.3.6, for Windows. 151 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
 
 The code is private.
 
