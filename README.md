@@ -33,6 +33,12 @@ One button. Each press of **MAKE ME MONEY** runs the next mission, and every mis
 
 When an idea passes, it gets a plain one-page test: real complaints first (no names), how it would work, the planned price, and a sign-up box. Example content shown.
 
+## More ways to earn
+
+![More ways to earn: remote work that fits you, rated by Claude, and seasonal ideas to plan ahead](shots/09-more-ways-to-earn.png)
+
+Ideas take time to prove. So every mission also reads six remote work boards and has Claude rate each new listing for you, 0 to 10, with scams and unpaid offers rated 0. Client gigs and contracts come first; regular jobs only if you switch them on. Once a week it suggests seasonal ideas you can still start in time, each with a start-by date and a first step. It never applies or writes to anyone for you. Ideas can now be a service, something to make or sell, or a guide, not only software. Example content shown.
+
 ## The loop
 
 Complaint, idea, test, venture, experiment, approval, result. Then keep going, change course, or stop, and go round again.
@@ -72,7 +78,7 @@ Research only. Research and build on this computer. Or also get tests ready to g
 
 ## Status
 
-Version 0.4.1, for Windows. 162 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
+Version 0.5.0, for Windows. 174 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
 
 The code is private.
 
