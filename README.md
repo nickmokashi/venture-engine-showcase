@@ -78,7 +78,7 @@ Research only. Research and build on this computer. Or also get tests ready to g
 
 ## Status
 
-Version 0.5.2, for Windows. 181 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
+Version 0.5.3, for Windows. 184 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
 
 The code is private.
 
