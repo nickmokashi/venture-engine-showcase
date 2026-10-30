@@ -37,7 +37,7 @@ When an idea passes, it gets a plain one-page test: real complaints first (no na
 
 ![More ways to earn: remote work that fits you, rated by Claude, and seasonal ideas to plan ahead](shots/09-more-ways-to-earn.png)
 
-The quickest money is something you can already do, so the screen opens with **Sell what you can do now**: say what you offer, pick one kind of customer, and Claude writes a one-page offer that takes requests. It goes online only after your yes. Ideas take time to prove, so every mission also reads six remote work boards and has Claude rate each new listing for you, 0 to 10, with scams and unpaid offers rated 0. Client gigs and contracts come first; regular jobs only if you switch them on. Once a week it suggests seasonal ideas you can still start in time, each with a start-by date and a first step. It never applies or writes to anyone for you. Ideas can now be a service, something to make or sell, or a guide, not only software. Example content shown.
+The quickest money is something you can already do, so the screen opens with **Sell what you can do now**: say what you offer, pick one kind of customer, and Claude writes a one-page offer that takes requests. It goes online only after your yes. Ideas take time to prove, so every mission also reads six remote work boards and has Claude rate each new listing for you, 0 to 10, with scams and unpaid offers rated 0. Client gigs and contracts come first; regular jobs only if you switch them on. Once a week it suggests seasonal ideas you can still start in time, each with a start-by date and a first step. When a spot has been taken, **This spot is filled** moves that listing out of the live list. Filed ones stay on record under **Filed away**, and **Put it back in the list** undoes a mistake. It never applies or writes to anyone for you. Ideas can now be a service, something to make or sell, or a guide, not only software. Example content shown.
 
 ## The loop
 
@@ -78,7 +78,7 @@ Research only. Research and build on this computer. Or also get tests ready to g
 
 ## Status
 
-Version 0.5.3, for Windows. 184 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
+Version 0.5.3, for Windows. 185 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
 
 The code is private.
 
