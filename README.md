@@ -37,7 +37,7 @@ When an idea passes, it gets a plain one-page test: real complaints first (no na
 
 ![Proven money: what people already pay for, each with the pages that prove it, what was thrown out, a first step and the likeliest way it fails](shots/10-proven-money.png)
 
-Complaints rarely mention money, so ideas built on them stay weak. This screen starts from where money already changes hands. Claude searches the live web and says where it saw it. The app then reads each page and keeps a proof only if those exact words are there, and how strong an idea is comes from the pages alone. A price is called a price, not a sale. It is a check on evidence, not a promise of income: on its first real runs it named 19 ideas, kept 2, and rated neither as strong. Example content shown.
+Complaints rarely mention money, so ideas built on them stay weak. This screen starts from where money already changes hands. Claude searches the live web and says where it saw it. The app then reads each page and keeps a proof only if those exact words are there, and how strong an idea is comes from the pages alone. A price is called a price, not a sale. **Check any idea** does the same for one idea and writes a short report, with what was thrown out, why it could fail and the smallest test. It is a check on evidence, not a promise of income: on its first real runs it named 19 ideas, kept 2, and rated neither as strong. Example content shown.
 
 ## More ways to earn
 
@@ -84,7 +84,7 @@ Research only. Research and build on this computer. Or also get tests ready to g
 
 ## Status
 
-Version 0.6.0, for Windows. 213 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
+Version 0.6.1, for Windows. 221 automated tests (the full loop among them, on a real database file, and seventeen for missions and look-ups), a walkthrough of the real screens, and every built-in mission address checked live before release. The screenshots here come from a fresh, empty profile.
 
 The code is private.
 
